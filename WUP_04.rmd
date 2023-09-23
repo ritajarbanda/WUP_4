@@ -14,6 +14,11 @@ require(tigerstats)
 mydata <- read.csv(file="GSScsv.csv")
 ```
 
+```{r eval=FALSE}
+mydata <- mydata %>%
+mutate(across(where(is.character), as.factor))
+```
+
 # Introduction
 
 <!--In this section you explain what you are trying to show.  Where did the data come from?  What is the research or other question you are trying to answer?!-->
