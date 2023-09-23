@@ -54,6 +54,9 @@ ggplot(mydata, aes(x = DEGREE, y = WORDSUM))+
   theme_minimal()
 ```
 
+The plot indicates that there is a notable difference in wordsum scores between those who are high school educated and all those groups who are college educated. There is no notable difference in wordsum scores between those who are junior college educated and those with their bachelors degree. There is also a substantial gap between those who have their graduate degrees, with the graduate degree groups 50th percentile is above the median for every other group.
+
+
 ### Numerical Descriptive Results
 
 <!--Numerical results go here. Use the numerical results to describe the patterns if any that exist in the data as focused toward the research question!-->
